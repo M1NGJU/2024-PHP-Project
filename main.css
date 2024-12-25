@@ -9,9 +9,17 @@
 }
 
 .head h2 {
-    margin-top: -450px;
-    color: white; /* 텍스트 색상을 흰색으로 설정 */
-    font-size: 2rem; /* 글자 크기 조정 */
-    font-weight: bold; /* 텍스트 두껍게 */
+    position: absolute;
+    top: 120px; /* 이미지의 상단에서 20px 아래로 위치 */
+    width: 100%;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
 }
-
+.product h2{
+    margin-top: 70px;
+    margin-left: 60px;
+    color: black; 
+    font-size: 2rem;
+    font-weight: bold;
+}
