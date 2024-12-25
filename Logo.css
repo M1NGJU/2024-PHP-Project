@@ -1,3 +1,4 @@
+/* 기존 스타일 */
 body, html {
     margin: 0;
     padding: 0;
@@ -9,11 +10,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FEFFB9;
+    background-color: #FEFFB9; /* 초기 배경 색상 */
+    transition: opacity 2s ease-out, background-color 2s ease-out; /* 배경색과 opacity를 함께 부드럽게 전환 */
 }
 
 .logo img {
     max-width: 100%;
     height: auto;
     display: block; 
+}
+
+/* 페이드 아웃 효과 */
+.fade-out {
+    opacity: 0;
+    background-color: #FFFFFF; /* 배경을 흰색으로 변경 (원하는 색상으로 변경 가능) */
 }

@@ -10,5 +10,18 @@
     <div class="logo">
         <img src="img/nctwishLogo.png" alt="logo">
     </div>
+
+    <script>
+        // 2초 후에 페이드 아웃 효과 시작
+        setTimeout(function() {
+            // 페이드 아웃 클래스를 추가하여 부드럽게 사라지도록 설정
+            document.body.classList.add('fade-out');
+
+            // 애니메이션이 끝난 후 main.html로 페이지 전환
+            setTimeout(function() {
+                window.location.href = "main.html";
+            }, 2000); // 2초 후에 페이지 전환
+        }, 2000); // 2초 후에 페이드 아웃 시작
+    </script>
 </body>
 </html>
