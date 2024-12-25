@@ -8,6 +8,20 @@
     height: auto;
 }
 
+.person img{
+    max-width: 39px; /* 최대 너비를 50px로 제한 */
+    margin-left: 1360px;
+    margin-top: -1000px;
+    height: auto; /* 비율을 유지하면서 높이를 자동으로 설정 */
+}
+
+.bag img{
+    max-width: 45px; /* 최대 너비를 50px로 제한 */
+    margin-left: 1500px;
+    margin-top: -1050px;
+    height: 50px; /* 비율을 유지하면서 높이를 자동으로 설정 */
+}
+
 .head h2 {
     position: absolute;
     top: 120px; /* 이미지의 상단에서 20px 아래로 위치 */
